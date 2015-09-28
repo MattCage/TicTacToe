@@ -1,5 +1,7 @@
 # Project TicTacToe
-My first ever working HTML5 game, an evergreen classic. Inspired by (and written following) Marco Bruti's *Imparare Javascript, DOM, CSS e HTML5 con i Browser Game*
+My first ever working HTML5 game, an evergreen classic. Inspired by (and written following) Marco Bruti's *Imparare Javascript, DOM, CSS e HTML5 con i Browser Game*.
+This game is currently under development, so its appearance, features and experience can change during development.
+Current version: *0.9.0-b*.
 
 ## How to run the game
 Open `index.html`, from master directory, with a web browser of your choice.
