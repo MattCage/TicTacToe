@@ -22,7 +22,7 @@ body {
 
 div#main-screen {
 	
-	min-height: 100%;
+	
 	
 }
 
@@ -252,6 +252,18 @@ input[type="submit"]:active {
 	
 	/*** LAYOUT ***/
 	/* Main */
+	div#main-screen {
+		
+		height: 100%;
+		
+	}
+	
+	div.full-height {
+		
+		height: 100%;
+		
+	}
+	
 	div.playfield {
 		
 		margin-top: 15px;
