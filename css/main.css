@@ -14,6 +14,12 @@ body, html {
 	height: 100%;
 }
 
+body {
+	
+	font-size: 18px;
+	
+}
+
 div#main-screen {
 	
 	min-height: 100%;
@@ -31,6 +37,8 @@ header {
 
 /* Main */
 div.playfield {
+	
+	margin-bottom: 15px;
 	
 }
 
@@ -78,13 +86,6 @@ div.cell div.cell-content div {
 	display: table;
 }
 
-div.cell div.cell-content div span {
-	font-size: 40px;
-	text-align: center;
-	vertical-align: middle;
-	display: table-cell;
-}
-
 div.cell:nth-child( even ) {
 
 	padding-top: 6px;
@@ -104,6 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+	
 	
 }
 
@@ -177,6 +179,13 @@ code {
 }
 
 small {
+}
+
+div.cell div.cell-content div span {
+	font-size: 48px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
 }
 
 /*** LISTS ***/

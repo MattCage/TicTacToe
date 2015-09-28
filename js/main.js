@@ -129,7 +129,7 @@ function printData( cellId ) {
 		
 		// Per ogni cella, rimuovo il segno e risetto il numero della cella
 		for( var k = 1; k <= 9; k++ ) {
-			window.document.getElementById( k ).innerHTML = k;
+			window.document.getElementById( k ).innerHTML = '&nbsp;';
 		}
 		
 	}
