@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+/*
+ * Nome: TicTacToe UI
+ *
+ * Colori:
+ * Fonts: 
+ */
+
+/*** STILE GENERALE ***/
+/*** LAYOUT ***/
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+div#main-screen {
+	
+	min-height: 100%;
+	
+}
+
+header, main, footer {
+	
+}
+
+/* Header */
+header {
+	
+}
+
+/* Main */
+div.playfield {
+	
+	border: 5px solid black;
+	
+}
+
+div.cell {
+	padding: 0;
+	overflow: hidden;
+	border: 5px solid black;
+}
+
+div.cell:before {
+	content: '';
+	display: block;
+	padding-top: 100%;
+}
+
+div.cell div.cell-content {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+div.cell div.cell-content div {
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+div.cell div.cell-content div span {
+	font-size: 40px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+/* Footer */
+footer {
+
+}
+
+/*** TYPOGRAPHY ***/
+h1, h2, h3, h4, h5, h6 {
+	
+}
+
+h1 {
+	
+}
+
+header h1 {
+	
+	margin-top: 10px;	
+	
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+address {
+	
+}
+
+figure {
+	
+}
+
+time {
+	
+}
+
+strong, b {
+}
+
+em, i {
+}
+
+cite, q {
+}
+
+blockquote {
+	
+}
+
+mark {
+	
+}
+
+ins, u {
+}
+
+del {
+}
+
+code {
+	
+}
+
+small {
+}
+
+/*** LISTS ***/
+ul {
+
+}
+
+ul li {
+
+}
+
+/*** LINKS ***/
+a:link, a:visited {
+
+}
+
+a:active {
+
+}
+
+a:hover {
+
+}
+
+/*** INPUTS & FORMS ***/
+label {
+
+}
+
+input, textarea {
+}
+
+input {
+
+}
+
+textarea {
+}
+
+input:focus, textarea:focus {
+
+}
+
+input[type="submit"] {
+
+}
+
+input[type="submit"]:hover {
+
+}
+
+input[type="submit"]:active {
+
+}
+
+/*** IMAGES ***/			
+			
+
+/*********************/
+
+/*** MEDIA QUERIES ***/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	
+	
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+	
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+	
+	
+}
