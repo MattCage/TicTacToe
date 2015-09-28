@@ -15,14 +15,10 @@ body, html {
 }
 
 body {
-	
 	font-size: 18px;
-	
 }
 
 div#main-screen {
-	
-	
 	
 }
 
@@ -37,28 +33,20 @@ header {
 
 /* Main */
 div.playfield {
-	
 	margin-bottom: 15px;
-	
 }
 
 div.playfield-padding {
-	
 	padding-left: 15px;
 	padding-right: 15px;
-	
 }
 
 div#playfield-row-0 div.cell {
-	
 	border-bottom: 3px solid black;
-	
 }
 
 div#playfield-row-1 div.cell {
-	
 	border-bottom: 3px solid black;
-	
 }
 
 div.cell {
@@ -87,11 +75,9 @@ div.cell div.cell-content div {
 }
 
 div.cell:nth-child( even ) {
-
 	padding-top: 6px;
 	border-left: 3px solid black;
 	border-right: 3px solid black;	
-	
 }
 
 /* Footer */
@@ -253,29 +239,21 @@ input[type="submit"]:active {
 	/*** LAYOUT ***/
 	/* Main */
 	div#main-screen {
-		
 		height: 100%;
-		
 	}
 	
 	div.full-height {
-		
 		height: 100%;
-		
 	}
 	
 	div.playfield {
-		
 		margin-top: 15px;
 		margin-bottom: 0;
-		
 	}
 	
 	div.playfield-padding {
-		
 		padding-left: 30px;
 		padding-right: 30px;
-		
 	}
 	
 }
@@ -290,13 +268,19 @@ input[type="submit"]:active {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	
-	
+	/*** TYPOGRAPHY ***/
+	div.cell div.cell-content div span {
+		font-size: 72px;
+	}
 	
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 	
-	
+	/*** TYPOGRAPHY ***/
+	div.cell div.cell-content div span {
+		font-size: 96px;
+	}
 	
 }
