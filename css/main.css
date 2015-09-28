@@ -32,14 +32,30 @@ header {
 /* Main */
 div.playfield {
 	
-	border: 5px solid black;
+}
+
+div.playfield-padding {
+	
+	padding-left: 15px;
+	padding-right: 15px;
+	
+}
+
+div#playfield-row-0 div.cell {
+	
+	border-bottom: 3px solid black;
+	
+}
+
+div#playfield-row-1 div.cell {
+	
+	border-bottom: 3px solid black;
 	
 }
 
 div.cell {
 	padding: 0;
 	overflow: hidden;
-	border: 5px solid black;
 }
 
 div.cell:before {
@@ -67,6 +83,14 @@ div.cell div.cell-content div span {
 	text-align: center;
 	vertical-align: middle;
 	display: table-cell;
+}
+
+div.cell:nth-child( even ) {
+
+	padding-top: 6px;
+	border-left: 3px solid black;
+	border-right: 3px solid black;	
+	
 }
 
 /* Footer */
