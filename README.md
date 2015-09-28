@@ -3,7 +3,7 @@ My first ever working HTML5 game, an evergreen classic. Inspired by (and written
 
 This game is currently under development, so its appearance, features and experience can change during development.
 
-Current version: *0.9.1-a*.
+Current version: *0.9.2*.
 
 ## How to run the game
 Open `index.html`, from master directory, with a web browser of your choice.
@@ -12,17 +12,17 @@ Open `index.html`, from master directory, with a web browser of your choice.
 In *Prj.TicTacToe* there are two players, X and O. X is always the first player. Click a blank space on the grid to mark it with your sign and try to be the first who gets three of same marks in a row.
 
 ## Compatibility
-*Prj.TicTacToe* works on any device which has a web browser installed.
+*Prj.TicTacToe* works on any device with a web browser installed.
 
-**Note**: At this moment, its planned UI works better on smartphones. It runs also on tablets, desktops etc., but final experience and appeal may (*will*, to be honest) vary.
+**Note**: At this moment, its planned UI works better on smartphones; the game runs on tablets, desktops etc. as well, but final experience and appeal may (*will*, to be honest) vary.
 
 This game works and has been tested on:
-- Chrome
-- Firefox
+- Chrome (Android, Windows)
+- Firefox (Windows)
 - Internet Explorer 8+
-- Opera
+- Opera (Windows)
 
-Originally developed, and best viewed, on Google Chrome.
+Developed and best viewed on Google Chrome.
 
 ## Credits
 Original code has been written by **Marco Bruti** and comes from his book [*Imparare Javascript, DOM, CSS e HTML5 con i Browser Game*](http://www.amazon.it/gp/product/B00DHIRW4Y).
