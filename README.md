@@ -1,6 +1,8 @@
 # Project TicTacToe
 My first ever working HTML5 game, an evergreen classic. Inspired by (and written following) Marco Bruti's *Imparare Javascript, DOM, CSS e HTML5 con i Browser Game*.
+
 This game is currently under development, so its appearance, features and experience can change during development.
+
 Current version: *0.9.0-b*.
 
 ## How to run the game
@@ -11,7 +13,9 @@ In *Prj.TicTacToe* there are two players, X and O. X is always the first player.
 
 ## Compatibility
 *Prj.TicTacToe* works on any device which has a web browser installed.
+
 **Note**: At this moment, its planned UI works better on smartphones. It runs also on tablets, desktops etc., but final experience and appeal may (*will*, to be honest) vary.
+
 This game works and has been tested on:
 - Chrome
 - Firefox
