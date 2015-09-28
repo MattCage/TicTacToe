@@ -247,6 +247,27 @@ input[type="submit"]:active {
 /*********************/
 
 /*** MEDIA QUERIES ***/
+/* Smartphone landscape */
+@media (min-width: 480px) {
+	
+	/*** LAYOUT ***/
+	/* Main */
+	div.playfield {
+		
+		margin-top: 15px;
+		margin-bottom: 0;
+		
+	}
+	
+	div.playfield-padding {
+		
+		padding-left: 30px;
+		padding-right: 30px;
+		
+	}
+	
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	
