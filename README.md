@@ -27,5 +27,5 @@ Originally developed, and best viewed, on Google Chrome.
 ## Credits
 Original code has been written by **Marco Bruti** and comes from his book [*Imparare Javascript, DOM, CSS e HTML5 con i Browser Game*](http://www.amazon.it/gp/product/B00DHIRW4Y).
 Any modified portion of code, brand new code, features, text, images and other media has been developed by [**Mattia Bondrano**](https://twitter.com/mattcage23).
-- Tech used: *HTML5*, *Bootstrap*
-- IDE: *Adobe Dreamweaver CC 2015*
+- Tech used: [*HTML5*](http://www.w3.org/TR/html5/), [*Bootstrap 3*](http://getbootstrap.com/), [*Bootstrap 3 Same Height Columns Plugin*](http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-columns-of-same-height)
+- IDE: [*Adobe Dreamweaver CC 2015*](http://www.adobe.com/it/products/dreamweaver.html)
