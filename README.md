@@ -33,7 +33,7 @@ Developed and best viewed on Google Chrome.
 
 ## Known bugs
 - UI
-  - [ ]UI sliding, issue: https://github.com/MattCage/TicTacToe/issues/1
+  - [ ] UI sliding, issue: #1
 
 ## Credits
 Original code has been written by **Marco Bruti** and comes from his book [*Imparare Javascript, DOM, CSS e HTML5 con i Browser Game*](http://www.amazon.it/gp/product/B00DHIRW4Y).
