@@ -31,6 +31,10 @@ Developed and best viewed on Google Chrome.
 - [ ] Remove Alerts in favor of in-game messages
 - [ ] Develop final UI
 
+## Known bugs
+- UI
+  - [ ]UI sliding, issue: https://github.com/MattCage/TicTacToe/issues/1
+
 ## Credits
 Original code has been written by **Marco Bruti** and comes from his book [*Imparare Javascript, DOM, CSS e HTML5 con i Browser Game*](http://www.amazon.it/gp/product/B00DHIRW4Y).
 Any modified portion of code, brand new code, features, text, images and other media has been developed by [**Mattia Bondrano**](https://twitter.com/mattcage23).
