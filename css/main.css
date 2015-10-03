@@ -32,8 +32,9 @@ header {
 }
 
 /* Main */
-div.playfield {
+div#playfield {
 	margin-bottom: 15px;
+	display: none;
 }
 
 div.playfield-padding {
@@ -49,29 +50,36 @@ div#playfield-row-1 div.cell {
 	border-bottom: 3px solid black;
 }
 
-div.cell {
+div.cell, div.player-select-screen {
 	padding: 0;
 	overflow: hidden;
 }
 
-div.cell:before {
+div.cell:before, div.player-select-screen:before {
 	content: '';
 	display: block;
 	padding-top: 100%;
 }
 
-div.cell div.cell-content {
+div.cell div.cell-content, div.player-select-screen div.player-select-screen-content {
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: 15px;
 	bottom: 0;
-	left: 0;
+	left: 15px;
 }
 
-div.cell div.cell-content div {
+div.cell div.cell-content div, div.player-select-screen div.player-select-screen-content div {
 	width: 100%;
 	height: 100%;
 	display: table;
+}
+
+div.player-select-screen div.player-select-screen-content div p {
+	
+	vertical-align: middle;
+	display: table-cell;
+	
 }
 
 div.cell:nth-child( even ) {
@@ -125,6 +133,12 @@ p {
 
 }
 
+p#turn-message {
+	
+	display: none;
+	
+}
+
 address {
 	
 }
@@ -172,6 +186,12 @@ div.cell div.cell-content div span {
 	text-align: center;
 	vertical-align: middle;
 	display: table-cell;
+}
+
+div.player-select-screen div.player-select-screen-content div span {
+	
+	font-size: 48px;
+	
 }
 
 /*** LISTS ***/
@@ -246,9 +266,10 @@ input[type="submit"]:active {
 		height: 100%;
 	}
 	
-	div.playfield {
+	div#playfield {
 		margin-top: 15px;
 		margin-bottom: 0;
+		display: none;
 	}
 	
 	div.playfield-padding {

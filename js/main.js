@@ -1,8 +1,13 @@
 // Setto le proprietà globali del gioco
 var grid = [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]; // L'array della griglia, contiene 10 posizioni che verrano riempite con l'id del giocatore che ha cliccato nella cella
 var turn = 1; // Il turno di gioco, contiene l'id del giocatore a cui spetta il turno
+var player1Mark;
+var player2Mark;
 var movesNum = 0; // Numero di mosse eseguite
 var playerName = document.getElementById( 'player-in-turn' );
+var turnMessage = document.getElementById( 'turn-message' );
+var playerSelection = document.getElementById( 'player-select' );
+var playfield = document.getElementById( 'playfield' );
 			
 // Funzione che al click assegna la cella, cambia turno, verifica condizioni di vittoria e nel caso segnala e resetta il gioco
 function printData( cellId ) {
@@ -22,10 +27,10 @@ function printData( cellId ) {
 		
 		// ...gli assegno la casella e passo il turno a 2
 		grid[ cellId ] = 1;
-		spanId.innerHTML = "X";
+		spanId.innerHTML = player1Mark;
 		turn = 2;
-		playerName.innerHTML = "O";
-		console.log( "Ha giocato player1, ha messo una X in posizione " + cellId + ".\nTocca a player2." );
+		playerName.innerHTML = player2Mark;
+		console.log( "Ha giocato player1, ha messo una " + player1Mark + " in posizione " + cellId + ".\nTocca a player2." );
 		
 	}
 	// Altrimenti, è il turno del giocatore 2 quindi...
@@ -33,10 +38,10 @@ function printData( cellId ) {
 		
 		// ...gli assegno la casella e passo il turno a 1
 		grid[ cellId ] = 2;
-		spanId.innerHTML = "O";
+		spanId.innerHTML = player2Mark;
 		turn = 1;
-		playerName.innerHTML = "X";
-		console.log( "Ha giocato player2, ha messo una O in posizione " + cellId + ".\nTocca a player1." );
+		playerName.innerHTML = player1Mark;
+		console.log( "Ha giocato player2, ha messo una " + player2Mark + " in posizione " + cellId + ".\nTocca a player1." );
 		
 	}
 	
@@ -97,14 +102,14 @@ function printData( cellId ) {
 			// ...Se il turno successivo sarebbe stato del giocatore 1, allora ha vinto il giocatore 2
 			if( turn == 1 ) {
 				
-				resultString = "Ha vinto O!";
+				resultString = "Ha vinto " + player2Mark + "!";
 				turn = 2;
 				
 			}
 			/// Altrimenti, il contrario
 			else {
 				
-				resultString = "Ha vinto X!";
+				resultString = "Ha vinto " + player1Mark + "!";
 				turn = 1;
 				
 			}
@@ -127,10 +132,10 @@ function printData( cellId ) {
 		
 		// Resetto il messaggio di a chi tocca
 		if( turn == 1 ) {
-			playerName.innerHTML = "X";
+			playerName.innerHTML = player1Mark;
 		}
 		else {
-			playerName.innerHTML = "O";
+			playerName.innerHTML = player2Mark;
 		}
 		
 		// Per ogni cella, rimuovo il segno e risetto il numero della cella
@@ -139,5 +144,27 @@ function printData( cellId ) {
 		}
 		
 	}
+	
+}
+
+function markSelect( mark ) {
+	
+	if( mark == "X" ) {
+		
+		player1Mark = mark;
+		player2Mark = "O";
+		
+	}
+	else {
+		
+		player1Mark = mark;
+		player2Mark = "X";
+		
+	}
+	
+	playerSelection.style.display = 'none';
+	playfield.style.display = 'table-cell';
+	turnMessage.style.display = "block";
+	playerName.innerHTML = player1Mark;
 	
 }

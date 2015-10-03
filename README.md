@@ -27,7 +27,7 @@ Developed and best viewed on Google Chrome.
 
 ## Roadmap to v1.0.0
 - [x] From feedback: Who wins the previous match get the first move
-- [ ] From feedback: Let a Mark Choice before first match
+- [x] From feedback: Let a Mark Choice before first match
 - [ ] Remove Alerts in favor of in-game messages
 - [ ] Develop final UI
 
