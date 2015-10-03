@@ -25,10 +25,10 @@ This game works and has been tested on:
 Developed and best viewed on Google Chrome.
 
 ## Roadmap to v1.0.0
-- [] From feedback: Who wins the previous match get the first move
-- [] From feedback: Let a Mark Choice before first match
-- [] Remove Alerts in favor of in-game messages
-- [] Develop final UI
+- [ ] From feedback: Who wins the previous match get the first move
+- [ ] From feedback: Let a Mark Choice before first match
+- [ ] Remove Alerts in favor of in-game messages
+- [ ] Develop final UI
 
 ## Credits
 Original code has been written by **Marco Bruti** and comes from his book [*Imparare Javascript, DOM, CSS e HTML5 con i Browser Game*](http://www.amazon.it/gp/product/B00DHIRW4Y).
