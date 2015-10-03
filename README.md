@@ -19,8 +19,9 @@ In *Prj.TicTacToe* there are two players, X and O. X is always the first player.
 This game works and has been tested on:
 - Chrome (Android, Windows)
 - Firefox (Windows)
-- Internet Explorer 8+
+- Internet Explorer (8+ on Windows)
 - Opera (Windows)
+- Vivaldi (TechPrev4 on Windows)
 
 Developed and best viewed on Google Chrome.
 
