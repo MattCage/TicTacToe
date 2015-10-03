@@ -14,7 +14,7 @@ In *Prj.TicTacToe* there are two players, X and O. X is always the first player.
 ## Compatibility
 *Prj.TicTacToe* works on any device with a web browser installed.
 
-**Note**: At this moment, its planned UI works better on smartphones; the game runs on tablets, desktops etc. as well, but final experience and appeal may (*will*, to be honest) vary.
+**Note**: ~~At this moment, its planned UI works better on smartphones; the game runs on tablets, desktops etc. as well, but~~ [Now fixed on every device] final experience and appeal may (*will*, to be honest) vary.
 
 This game works and has been tested on:
 - Chrome (Android, Windows)
