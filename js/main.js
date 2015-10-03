@@ -98,12 +98,14 @@ function printData( cellId ) {
 			if( turn == 1 ) {
 				
 				resultString = "Ha vinto O!";
+				turn = 2;
 				
 			}
 			/// Altrimenti, il contrario
 			else {
 				
 				resultString = "Ha vinto X!";
+				turn = 1;
 				
 			}
 			
@@ -120,12 +122,16 @@ function printData( cellId ) {
 		alert( resultString );
 		
 		// Resetto il gioco
-		turn = 1; // Ricomincia il giocatore 1
 		grid = [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]; // La griglia deve essere azzerata
 		movesNum = 0; // Numero di mosse = 0
 		
 		// Resetto il messaggio di a chi tocca
-		playerName.innerHTML = "X";
+		if( turn == 1 ) {
+			playerName.innerHTML = "X";
+		}
+		else {
+			playerName.innerHTML = "O";
+		}
 		
 		// Per ogni cella, rimuovo il segno e risetto il numero della cella
 		for( var k = 1; k <= 9; k++ ) {
