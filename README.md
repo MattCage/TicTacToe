@@ -3,13 +3,13 @@ My first ever working HTML5 game, an evergreen classic. Inspired by (and written
 
 This game is currently under development, so its appearance, features and experience can change during development.
 
-Current version: *0.9.2*.
+Current version: *0.9.4*.
 
 ## How to run the game
 Open `index.html`, from master directory, with a web browser of your choice.
 
 ## How To Play
-In *Prj.TicTacToe* there are two players, X and O. X is always the first player. Click a blank space on the grid to mark it with your sign and try to be the first who gets three of same marks in a row.
+In *Prj.TicTacToe* there are two players, X and O. Player 1 chooses what will be its mark, Player 2 will use the other mark. Click a blank space on the grid to mark it with your sign and try to be the first who gets three of same marks in a row.
 
 ## Compatibility
 *Prj.TicTacToe* works on any device with a web browser installed.
